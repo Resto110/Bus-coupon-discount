@@ -1,0 +1,46 @@
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rectangle {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -1%);
+    border-radius: 20px;
+    height: 700px;
+    width: 600px;
+    background-color: #89CFF0;
+}
+
+#mainHeader {
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(42%, 70%);
+    font-family: 'Roboto Slab', serif;
+}
+
+.formFields {
+    position: relative;
+    display: grid;
+    place-items: center;
+    transform: translateY(110px);
+}
+
+
+#btn {
+    background-color: #b20000;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(505%, 350%);
+    padding-inline: 30px;
+    font-family: 'Roboto Slab', serif;
+    font-size: xx-large;
+    width: auto;
+    color: white;
+    border: none;
+}
