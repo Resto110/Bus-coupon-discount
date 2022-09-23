@@ -1,7 +1,14 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
 #logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
 }
 
 .rectangle {
@@ -16,10 +23,10 @@
 }
 
 #mainHeader {
-    display: flex;
+    display: block;
     top: 50%;
     left: 50%;
-    transform: translate(42%, 70%);
+    transform: translate(42%, 80%);
     font-family: 'Roboto Slab', serif;
 }
 
@@ -27,16 +34,16 @@
     position: relative;
     display: grid;
     place-items: center;
-    transform: translateY(110px);
+    transform: translate(10px, 90px);
 }
 
 
 #btn {
     background-color: #b20000;
-    display: flex;
+    display: block;
     top: 50%;
     left: 50%;
-    transform: translate(505%, 350%);
+    transform: translate(515%, 350%);
     padding-inline: 30px;
     font-family: 'Roboto Slab', serif;
     font-size: xx-large;
